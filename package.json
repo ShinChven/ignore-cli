@@ -1,0 +1,26 @@
+{
+  "name": "ignore-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "git clone https://github.com/github/gitignore.git || true"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "fs-extra": "^9.0.1",
+    "shelljs": "^0.8.4",
+    "shx": "^0.3.3"
+  },
+  "devDependencies": {
+    "@types/fs-extra": "^9.0.4",
+    "@types/mocha": "^8.2.0",
+    "@types/shelljs": "^0.8.8",
+    "mocha": "^8.2.1",
+    "ts-mocha": "^8.0.0",
+    "typescript": "^4.1.2"
+  }
+}
